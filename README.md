@@ -2,11 +2,13 @@
 
 This project detects fraudulent ATM transactions using machine learning and deep learning techniques. It includes a deployed Streamlit app and a visually interactive dashboard to analyze fraud trends.
 
+---
 
 ## 🔍 Problem Statement
 
 ATM fraud causes massive financial loss each year. The objective is to develop a fraud detection system that can accurately predict suspicious transactions using contextual, behavioral, and transactional features.
 
+---
 
 ## 🧠 Machine Learning Pipeline
 
@@ -25,12 +27,15 @@ ATM fraud causes massive financial loss each year. The objective is to develop a
 - Precision / Recall
 - ROC-AUC Score
 
+---
+
 ## 📊 Key Features Used
 - Transaction Type, Amount, Duration
 - Customer Age, Occupation
 - Location, Device ID, IP Address
 - Channel, Login Attempts, Account Balance
 
+---
 
 ## 🖥️ Streamlit Web App
 
@@ -40,6 +45,7 @@ ATM fraud causes massive financial loss each year. The objective is to develop a
 - Bar chart and pie chart summaries
 - Download results as CSV
 
+---
 
 ## 📊 Fraud Dashboard (HTML-based)
 
@@ -60,7 +66,7 @@ An interactive **fraud analytics dashboard** built using **HTML + JavaScript (Pl
 ---
 
 ## 🧪 Sample Input Format
-Also you can download the sample dataset which is there in the repository itself for testing.
+Also you can download the sample dataset for testing which is there in the repository itself.
 ```csv
 TransactionID,AccountID,TransactionAmount,TransactionDate,TransactionType,Location,DeviceID,IP Address,MerchantID,Channel,CustomerAge,CustomerOccupation,TransactionDuration,LoginAttempts,AccountBalance,PreviousTransactionDate
 TX000001,AC00128,14.09,2023-04-11 16:29:14,Debit,San Diego,D000380,162.198.218.92,M015,ATM,70,Doctor,81,1,5112.21,2024-11-04 08:08:08
@@ -80,6 +86,7 @@ streamlit run app.py
 🌐 Deployed App (Streamlit Cloud)
 👉 https://atm-fraud-detection.streamlit.app/
 
+Replace with your actual Streamlit link.
 
 📁 Project Structure
 css
