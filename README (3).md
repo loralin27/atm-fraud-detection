@@ -13,7 +13,6 @@ ATM fraud causes massive financial loss each year. The objective is to develop a
 ## 🧠 Machine Learning Pipeline
 
 ### ✅ Data Preprocessing
-- Removed corrupt placeholders (e.g., `#`)
 - One-hot encoded categorical variables
 - Scaled numeric features using `StandardScaler`
 - Addressed class imbalance with **SMOTE**
@@ -67,6 +66,7 @@ An interactive **fraud analytics dashboard** built using **HTML + JavaScript (Pl
 ---
 
 ## 🧪 Sample Input Format
+there is a sample atm transaction file in this repository also you can download and test
 
 ```csv
 TransactionID,AccountID,TransactionAmount,TransactionDate,TransactionType,Location,DeviceID,IP Address,MerchantID,Channel,CustomerAge,CustomerOccupation,TransactionDuration,LoginAttempts,AccountBalance,PreviousTransactionDate
