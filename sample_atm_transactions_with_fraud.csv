@@ -1,0 +1,5 @@
+TransactionID,AccountID,TransactionAmount,TransactionDate,TransactionType,Location,DeviceID,IP Address,MerchantID,Channel,CustomerAge,CustomerOccupation,TransactionDuration,LoginAttempts,AccountBalance,PreviousTransactionDate,is_fraud
+TX000001,AC00128,14.09,2023-04-11 16:29:14,Debit,San Diego,D000380,162.198.218.92,M015,ATM,70,Doctor,81,1,5112.21,2024-11-04 08:08:08,0
+TX000002,AC00129,540.55,2023-04-12 10:45:00,Withdrawal,New York,D000381,162.198.210.11,M016,Online,45,Engineer,60,2,3000.0,2024-11-03 12:30:00,1
+TX000003,AC00130,120.0,2023-04-13 13:20:00,Deposit,Chicago,D000382,162.198.210.12,M017,ATM,34,Teacher,45,0,4500.0,2024-11-02 09:00:00,0
+TX000004,AC00131,999.99,2023-04-14 15:10:00,Transfer,Los Angeles,D000383,162.198.220.33,M018,Mobile,29,Student,100,3,1000.0,2024-11-01 14:00:00,1
