@@ -16,10 +16,6 @@ st.sidebar.header("Input Transaction Data")
 
 # Upload CSV file
 uploaded_file = st.file_uploader("Upload a CSV file for prediction", type=["csv"])
-model = joblib.load("xgb_best_model.pkl")
-scaler = joblib.load("scaler.pkl")
-features = joblib.load("xgb_model_features.pkl")
-
 
 if uploaded_file:
     input_df = pd.read_csv(uploaded_file)
