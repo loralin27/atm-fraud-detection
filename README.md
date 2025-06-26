@@ -66,14 +66,17 @@ An interactive **fraud analytics dashboard** built using **HTML + JavaScript (Pl
 ---
 
 ## 🧪 Sample Input Format
-Also you can download the sample dataset for testing which is there in the repository itself.
+Also you can upload the sample file which is there in the repository itself to test it.
 ```csv
 TransactionID,AccountID,TransactionAmount,TransactionDate,TransactionType,Location,DeviceID,IP Address,MerchantID,Channel,CustomerAge,CustomerOccupation,TransactionDuration,LoginAttempts,AccountBalance,PreviousTransactionDate
 TX000001,AC00128,14.09,2023-04-11 16:29:14,Debit,San Diego,D000380,162.198.218.92,M015,ATM,70,Doctor,81,1,5112.21,2024-11-04 08:08:08
-🚀 Run the App Locally
-bash
-Copy
-Edit
+```
+
+---
+
+## 🚀 Run the App Locally
+
+```bash
 # Clone the repo
 git clone https://github.com/yourusername/atm-fraud-detection.git
 cd atm-fraud-detection
@@ -83,38 +86,43 @@ pip install -r requirements.txt
 
 # Launch the Streamlit app
 streamlit run app.py
-🌐 Deployed App (Streamlit Cloud)
-👉 https://atm-fraud-detection.streamlit.app/
+```
 
-Replace with your actual Streamlit link.
+---
 
-📁 Project Structure
-css
-Copy
-Edit
+## 🌐 Deployed App (Streamlit Cloud)
+
+👉 https://atm-fraud-detection.streamlit.app/  
+
+
+---
+
+## 📁 Project Structure
+
+```
 atm-fraud-detection/
-├── app.py                       ← Streamlit app
-├── xgb_best_model.pkl           ← Model + scaler + features (all-in-one)
-├── glassmorphism_dashboard_with_data.html ← Interactive fraud dashboard
-├── sample_atm_transactions.csv ← Sample input
-├── requirements.txt             ← Python dependencies
-└── README.md                    ← This file
-✅ Future Enhancements
-Add SHAP model explainability
+├── app.py
+├── xgb_best_model.pkl
+├── glassmorphism_dashboard_with_data.html
+├── sample_atm_transactions.csv
+├── requirements.txt
+└── README.md
+```
 
-Real-time fraud alerts
+---
 
-API integration with banking systems
+## ✅ Future Enhancements
 
-📚 Acknowledgements
-Streamlit
+- Add SHAP model explainability
+- Real-time fraud alerts
+- API integration with banking systems
 
-Scikit-learn
+---
 
-XGBoost
+## 📚 Acknowledgements
 
-Plotly.js
-
-Imbalanced-learn (SMOTE)
-
-
+- [Streamlit](https://streamlit.io/)
+- [Scikit-learn](https://scikit-learn.org/)
+- [XGBoost](https://xgboost.readthedocs.io/)
+- [Plotly.js](https://plotly.com/javascript/)
+- [Imbalanced-learn (SMOTE)](https://imbalanced-learn.org/)
